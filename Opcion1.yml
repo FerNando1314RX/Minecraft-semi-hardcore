@@ -6,7 +6,7 @@ Events:
     actions:
       default:
       - 'console_command: scoreboard players set %player% vidas 5'
-  PlayerDeath:
+  PlayerDeathOP1:
     type: player_death
     conditions:
     - '%objective_score_{vidas} == 1 execute action2'
