@@ -23,7 +23,7 @@ En la linea 14 y 21 se agregara el mensaje de muerte opcional, puedes poner lo q
 ## Opcion2
 En esta opcion se utilizara la barra de vida como sistema de vidas, si mueres se te resta un corazon y si llegas a 0 pierdes
 
-En la linea 14 y 21 se agregara el mensaje de muerte opcional, puedes poner lo que quieras cuando el jugador pierda una vida o directamente muera, pero para especificar al jugador debes poner %player%, ahora si ocupas una pagina como [birdflop](https://www.birdflop.com/resources/rgb/) no pongas ahi el %player%, debes ponerlo despues, ademas en esa pagina debes poner el formato de color en **"&x&r&r&g&g&b&b"** de todos modos en el archivo dejare un ejemplo.
+En la linea 14 y 19 se agregara el mensaje de muerte opcional, puedes poner lo que quieras cuando el jugador pierda una vida o directamente muera, pero para especificar al jugador debes poner %player%, ahora si ocupas una pagina como [birdflop](https://www.birdflop.com/resources/rgb/) no pongas ahi el %player%, debes ponerlo despues, ademas en esa pagina debes poner el formato de color en **"&x&r&r&g&g&b&b"** de todos modos en el archivo dejare un ejemplo.
 
 ** **
 ## Recuerda seguirme en mis redes
