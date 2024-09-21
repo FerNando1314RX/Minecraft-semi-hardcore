@@ -5,8 +5,9 @@ En Minecrat existe un apartado llamado **scoreboard** el cual te permite guardar
 
 ## Pasos a seguir (no importa que opcion elijan van a ser los mismos pasos)
 
+- Instalar los siguientes plugins: [ConditionalEvents](https://modrinth.com/plugin/conditionalevents/versions) y [PlaceHolderApi](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - En minecraft poner el siguiente comando: **/scoreboard objectives add vidas dummy**
-- Luego ponenen /papi ecloud download player, /papi ecloud download playertime, /papi ecloud download scoreboardobjectives
+- Luego ponenen: **/papi ecloud download player, /papi ecloud download playertime, /papi ecloud download scoreboardobjectives y por ultimo /papi reload**
 - Luego en el conditional events deben crear un evento, no se preocupen mucho por eso, les dejare el archivo listo con el evento
 - Lo unico que deben hacer el poner el evento en la carpeta **plugins\conditionalevents\events**
 - Luego en el minecraft ponen **/ce reload**
