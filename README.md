@@ -36,7 +36,7 @@ En la linea 14 y 19 se agregara el mensaje de muerte opcional, puedes poner lo q
 
 
 ## Aclaraciones:
-Lo que hice basicamente fue inspirarme del codigo de iTSoS(el mejor tutorial que he visto para la opcion 1) y de un short de ajneb97(creador del plugin ConditionalEvents)
+Lo que hice basicamente fue inspirarme del codigo de [iTSoS(el mejor tutorial que he visto para la opcion 1)](https://www.youtube.com/watch?v=GLKRz29umrc&t=300s) y de un short de [ajneb97(creador del plugin ConditionalEvents)](https://www.youtube.com/shorts/2wEmZw3W1SU)
 
 
 
