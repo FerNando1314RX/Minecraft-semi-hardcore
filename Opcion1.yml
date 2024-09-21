@@ -2,7 +2,7 @@ Events:
   FirstJoin:
     type: player_join
     conditions:
-    - '%objective_score_{vidas}% equals 0'
+    - '%objective_score_{vidas}% == 0'
     actions:
       default:
       - 'console_command: scoreboard players set %player% vidas 5'
