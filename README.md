@@ -13,7 +13,13 @@ En Minecrat existe un apartado llamado **scoreboard** el cual te permite guardar
 
 
 ## Opcion 1
-En esta opcion se utilizara un sistema de tipo clasico, mueres y se te descuenta 1 vida, si llegas a 0 pierdes
+En esta opcion se utilizara un sistema de tipo clasico, mueres y se te descuenta 1 vida, si llegas a 0 pierdes, si eliges esta opcion puedes elegir el numero de vidas que tendra el jugador al iniciar, el valor por defecto lo dejare en 5, lo puedes cambiar en la linea 8
+
+**- 'console_command: scoreboard players set %player% vidas (cantidad de vidas a eleccion)'**
+
+En la linea 14 y 21 se agregara el mensaje de muerte opcional, puedes poner lo que quieras cuando el jugador pierda una vida o directamente muera, pero para especificar al jugador debes poner %player%, ahora si ocupas una pagina como [birdflop](https://www.birdflop.com/resources/rgb/) no pongas ahi el %player%, debes ponerlo despues, ademas en esa pagina debes poner el formato de color en **"&x&r&r&g&g&b&b"** de todos modos en el archivo dejare un ejemplo.
+
+** **
 ## Opcion2
 En esta opcion se utilizara la barra de vida como sistema de vidas, si mueres se te resta un corazon y si llegas a 0 pierdes
 
