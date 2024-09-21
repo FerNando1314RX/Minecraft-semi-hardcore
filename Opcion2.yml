@@ -1,0 +1,30 @@
+Events: 
+  FirstJoin:
+    type: player_join
+    conditions:
+    - '%objective_score_{vidas}% == 0'
+    actions:
+      default:
+      - 'console_command: scoreboard players set %player% vidas 20'
+  PlayerDeath:
+    type: player_death
+    conditions:
+    - '%objective_score_{vidas} == 1 execute action2'
+    actions:
+      default:
+      - 'console_command: scoreboard players remove %player% vidas 1'
+      action2:
+      - 'console_command: scoreboard players set %player% vidas -1'
+      - 'console_command: gamemode spectator %player%'
+      - 'to_all: message: &x&0&8&4&C&F&B&l&nE&x&0&C&5&1&F&B&l&nl&x&1&1&5&5&F&B&l&n &x&1&5&5&A&F&B&l&nj&x&1&A&5&E&F&B&l&nu&x&1&E&6&3&F&B&l&ng&x&2&3&6&7&F&B&l&na&x&2&7&6&C&F&B&l&nd&x&2&C&7&0&F&B&l&no&x&3&0&7&5&F&B&l&nr&x&3&5&7&9&F&C&l&n &x&3&9&7&E&F&C&l&n%player%&x&3&E&8&2&F&C&l&n &x&4&2&8&7&F&C&l&ny&x&4&6&8&B&F&C&l&na&x&4&B&9&0&F&C&l&n &x&4&F&9&4&F&C&l&nn&x&5&4&9&9&F&C&l&no&x&5&8&9&D&F&C&l&n &x&5&D&A&2&F&C&l&ne&x&6&1&A&6&F&C&l&ns&x&6&6&A&B&F&C&l&nt&x&6&A&A&F&F&C&l&na&x&6&F&B&4&F&C&l&n &x&7&3&B&8&F&C&l&ne&x&7&7&B&D&F&C&l&nn&x&7&C&C&1&F&C&l&nt&x&8&0&C&6&F&C&l&nr&x&8&5&C&A&F&D&l&ne&x&8&9&C&F&F&D&l&n &x&8&E&D&3&F&D&l&nn&x&9&2&D&8&F&D&l&no&x&9&7&D&C&F&D&l&ns&x&9&B&E&1&F&D&l&no&x&A&0&E&5&F&D&l&nt&x&A&4&E&A&F&D&l&nr&x&A&9&E&E&F&D&l&no&x&A&D&F&3&F&D&l&ns'
+      - 'wait: 2'
+      - 'console_command: ban %player% Gracias por jugar'
+  Atributo:
+    type: repetitive 
+    repetitive_time: 240
+    conditions:
+    - '%world_time_{player_world}% >= 0'
+    - '%world_time_{player_world}% <= 100'
+    actions:
+      default:
+      - 'console_command: attribute %player% minecraft:generic.max_health base set %objective_score_{vidas}%'
