@@ -33,3 +33,19 @@ En la linea 14 y 19 se agregara el mensaje de muerte opcional, puedes poner lo q
 [<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/%20UCK-AgU6luMFlKxKbWLRM-SA">](https://www.youtube.com/@FerNando1314XR)
 [<img alt="Twitch Status" src="https://img.shields.io/twitch/status/fernando1314xr">](https://www.twitch.tv/fernando1314xr)
 [<img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/fernandoxr24/)
+
+
+## Aclaraciones:
+Lo que hice basicamente fue inspirarme del codigo de iTSoS(el mejor tutorial que he visto para la opcion 1) y de un short de ajneb97(creador del plugin ConditionalEvents)
+
+
+
+
+
+
+
+
+
+
+
+
